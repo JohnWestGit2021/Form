@@ -1,23 +1,31 @@
 body{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     background: #9DBEBB;
-    min-height: 100vh;
-    display: flex;
-
+    height: 100vh; 
+    width: 100%;
 }
 
-.form-block{
-    background: #BE0909;
-    max-width: 954px;
+main{
+    width: 954px;
     height: 594px;
-    width: 100%;
-    border: 3px;
-    border-color: black;
-    margin-top: 138px;
-    margin-left: 243px;
     display: flex;
     justify-content: center;
+    align-items: center;
+}
 
+.form{
+    background: #BE0909;
+    border: 3px;
+    border-color: black;
+    width: 954px;
+    height: 594px;
+    display: flex;
+    flex-direction: column;
+}
+
+input:hover {
+
+    background-color: lightblue;
 }
 
 h1{
@@ -30,14 +38,20 @@ h1{
 .information{
     margin-top: 20px;
     margin-right: 65px;
+    display: flex;
 }
 
 button{
-    border-radius: 2px;
-    border-color: chartreuse;
+    border-radius: 5px;
+    border-color: blue;
     cursor: pointer;
 }
-p{
+
+button:hover {
+    background-color: lightblue;
+}
+
+label{
     font-family: Roboto;
     font-style: normal;
     font-weight: normal;
