@@ -1,0 +1,71 @@
+body{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background: #9DBEBB;
+    min-height: 100vh;
+    display: flex;
+
+}
+
+.form-block{
+    background: #BE0909;
+    max-width: 954px;
+    height: 594px;
+    width: 100%;
+    border: 3px;
+    border-color: black;
+    margin-top: 138px;
+    margin-left: 243px;
+    display: flex;
+    justify-content: center;
+
+}
+
+h1{
+    color: ghostwhite;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-style: normal;
+    font-size: 50px;
+}
+
+.information{
+    margin-top: 20px;
+    margin-right: 65px;
+}
+
+button{
+    border-radius: 2px;
+    border-color: chartreuse;
+    cursor: pointer;
+}
+p{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 21px;
+    letter-spacing: 0.3em;
+    color: #FEFFFF;
+    text-decoration: underline;
+    cursor: default;
+    
+    }
+.pen{
+    margin-top: 30px;
+    margin-left: 70px;
+    /* i tried to place the image while using display:flex and then justify content and align content but to no effect */
+}
+
+.specialoffer{
+    font-family: Roboto;
+    font-style: italic;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 21px;
+    letter-spacing: 0.1em;
+    color: #FEFFFF;
+}
+
+.specialoffer-box{
+    cursor: grab;
+}
+
